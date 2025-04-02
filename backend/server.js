@@ -1,5 +1,5 @@
 require("dotenv").config();
-const port = process.env.PORT || 3002;
+const port = process.env.PORT || 3003;
 const app = require("./index");
 
 const server = app.listen(port, () => {
